@@ -1,0 +1,39 @@
+.gfLocateArea-Row{
+    display: flex;
+    padding: 10px 20px 0 20px;
+    flex-direction: column;
+}
+.gfLocateArea-Label{
+    flex: 1;
+    text-align: center;
+    height: 28px;
+    line-height: 28px;
+}
+.gfLocateArea-Select{
+    flex: 1;
+}
+.gfLocateArea-Input{
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    height: 28px;
+    text-align: right;
+    padding-right: 10px;
+}
+.gfLocateArea-Button{
+    flex: 1;
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+}
+.gfLocateArea-Button:hover{
+    background-color: #16A085;
+    color: #FFFFFF;
+}
